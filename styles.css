@@ -1,0 +1,264 @@
+@import url(https://fonts.google.com/share?selection.family=Teko:wght@300..700);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1f1517;
+  color: #ffffff;
+}
+
+html {
+  font-family: inter, sans-serif;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  max-width: 1120px;
+  margin: auto;
+  padding: 24px; /* convertido de 1.5rem */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: teko;
+  font-size: 32px; /* convertido de 2rem */
+  font-weight: 600;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 24px; /* convertido de 1.5rem */
+  color: #fff2e780;
+}
+
+.github {
+  font-weight: 600;
+  color: #fff2e7;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.principal {
+  background-color: #181012;
+}
+
+.hero {
+  max-width: 1120px;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 96px; /* convertido de 6rem */
+  padding: 0px 32px; /* convertido de 2rem */
+  margin: auto;
+  overflow: clip;
+  align-items: center;
+}
+
+.destaque {
+  font-family: epilogue;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.marrom {
+  color: #a45a49;
+}
+
+.amarelo {
+  color: #e7a80e;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-size: 56px; /* convertido de 3.5rem */
+  font-weight: 800;
+}
+
+hr {
+  border-color: #a45a49;
+}
+
+.hero-subtitulo {
+  font-family: inter;
+  color: #c7bab3;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.hero-conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* convertido de 1rem */
+}
+
+.hero-imagens {
+  max-width: 45%;
+  column-count: 3;
+  column-gap: 16px; /* convertido de 1rem */
+  margin: -16px; /* convertido de 1rem */
+}
+
+.hero-imagens > figure > img {
+  width: 100%;
+  border-radius: 8px; /* convertido de 0.5rem */
+}
+
+.botao-container {
+  width: 100%;
+  max-width: 1120px;
+  margin: auto;
+  transform: translate("0, -50%");
+}
+
+button {
+  border: none;
+  width: 0px;
+  height: auto;
+  border-radius: 8px; /* convertido de 0.5rem */
+  background: #a45a49;
+}
+
+.receitas {
+  display: flex;
+  flex-direction: column;
+  max-width: 1120px;
+  padding: 3rem 2rem; /* convertido de 3rem 2rem */
+  margin: auto;
+}
+
+.receitas-cabeçalho {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* convertido de 0.5rem */
+  justify-content: flex-start;
+}
+
+.receitas-titulo {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff2ef;
+}
+
+.receitas-texto {
+  color: #c7bab3;
+  font-family: inter;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container-cards {
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-grow: 0;
+  gap: 50px;
+}
+.container-1 {
+  background-color: #241a1c;
+  padding: 2rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex-basis: 29rem;
+  justify-content: space-around;
+}
+
+.container-2 {
+  background-color: #241a1c;
+  padding: 2rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex-basis: 29rem;
+}
+.container-cabecalho {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+.em-alta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.destaque-amarelo {
+  color: #e7a80e;
+}
+.capuccino {
+  color: #fff2e7;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+}
+.avaliacao {
+  color: #756a67;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-family: inter;
+}
+
+.descricao-container {
+  color: #c7bab3;
+  font-family: inter;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.autor {
+  font-family: inter;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #c7bab3;
+}
+
+footer {
+  padding: 64px; /* convertido de 4rem */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px; /* convertido de 0.5rem */
+  background: #23181a;
+}
+
+.footer-copy {
+  font-size: 14px;
+  font-family: inter;
+  font-weight: 500;
+  color: #fff2e7;
+}
+
+.footer-descricao {
+  font-family: 14px; /* corrigido de font-family: inter; */
+  color: rgba(255, 242, 231, 0.5);
+}
